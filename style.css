@@ -6,7 +6,7 @@
 }
 
 header, footer {
-    background-color: #338A88;
+    background-color: #cc0066;
     color: #fff;
     padding: 2%;
 }
@@ -15,24 +15,31 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-weight: 300;
+}
+
 .main {
     margin: 2%;
     text-align: center;
 }
 
 .card {
-    border: solid 1px #000;
+    border: solid 1px #ccc;
+    border-radius: 4%;
     display: inline-block;
     padding-top: 2%;
-    padding-bottom: 2%;
     margin: 2%;
     width: 260px;
-    height: 300px;
     overflow: hidden;
 }
 
 .card img {
     border-radius: 50%;
+}
+
+.card * {
+    margin-bottom: 5%;
 }
 
 footer {
@@ -62,6 +69,7 @@ ul.tags {
     padding-left: 0px;
     margin-top: 5%;
     margin-bottom: 5%;
+    height: 50px;
 }
 
 ul.tags li {
@@ -72,4 +80,8 @@ ul.tags li {
   padding: 2px 6px;
   margin: 2px;
   font-size: 0.8rem;
+}
+
+.cidade {
+    font-size: 0.8rem;
 }
