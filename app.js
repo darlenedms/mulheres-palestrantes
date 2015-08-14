@@ -2,7 +2,7 @@ var data = {
     "mulheres": [
         {
             "nome": "Ana Paula Gomes",
-            "tags": ["Android", "Python", "Mineração/Análise de dados", "Grafos", "Comunidades", "Mulheres na Computação"],
+            "tags": ["Mineração/Análise de dados", "Android", "Python", "Grafos", "Comunidades"],
             "cidade": "Belo Horizonte/MG"
         },
         {
@@ -12,7 +12,7 @@ var data = {
         },
         {
             "nome": "Bianca Rosa",
-            "tags": ["Desenvolvimento web (front & back-end)", "Grails", "Java", "SQL", "JavaScript", "AngularJS", "TDD"],
+            "tags": ["Desenvolvimento web", "Grails", "Java", "SQL", "JavaScript", "AngularJS", "TDD"],
             "cidade": "Rio de Janeiro/RJ"
         },
         {
@@ -42,7 +42,7 @@ var data = {
         },
         {
             "nome": "Talita Pagani",
-            "tags": ["UX design / experiência do usuário", "front-end", "acessibilidade web", "usabilidade", "carreira", "vida acadêmica", "mercado de trabalho", "engenharia de software"],
+            "tags": ["UX design", "front-end", "acessibilidade", "usabilidade", "engenharia de software"],
             "cidade": "Bauru/SP"
         }
     ]
