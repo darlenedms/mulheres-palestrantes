@@ -1,68 +1,70 @@
 * {
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 0 auto;
-	font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, footer {
-	background-color: #338A88;
-	color: #fff;
-	padding: 2%;
+    background-color: #338A88;
+    color: #fff;
+    padding: 2%;
 }
 
 .main {
-	margin: 2%;
-	text-align: center;
+    margin: 2%;
+    text-align: center;
 }
 
 .card {
-	border: solid 1px #000;
-	display: inline-block;
-  	padding-top: 2%;
-  	padding-bottom: 2%;
-	margin: 2%;
-	width: 250px;
-	height: 280px;
+    border: solid 1px #000;
+    display: inline-block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
 }
 
 .card img {
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 footer {
-	text-align: right;
+    text-align: right;
 }
 
 footer img {
-	width: 50px;
+    width: 50px;
 }
 
 .social-media img {
-	width: 29px;
-	display: inline;
+    width: 29px;
+    display: inline;
 }
 
 ul.social-media {
-  	padding-left: 0px;
-	list-style-type: none;
+    padding-left: 0px;
+    list-style-type: none;
 }
 
 ul.social-media li {
-	display: inline;
+    display: inline;
 }
 
 ul.tags {
-	list-style-type: none;
-	padding-left: 0px;
-	margin-top: 5%;
-	margin-bottom: 5%;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 ul.tags li {
-	display: inline-block;
-	background-color: #ccc;
-	color: #666;
-	border-radius: 20%;
-	padding: 5px;
+    display: inline-block;
+    background-color: #ccc;
+    color: #666;
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 0.8rem;
 }
