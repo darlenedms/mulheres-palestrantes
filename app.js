@@ -11,7 +11,7 @@ var directive = {
             },
 
             '.city': 'mulher.city',
-
+            'img.gravatar@src': 'mulher.gravatar_url',
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
 
             '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
