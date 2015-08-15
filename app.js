@@ -10,10 +10,21 @@ var directive = {
                 }
             },
 
-            '.cidade': 'mulher.city'
+            '.city': 'mulher.city',
+
+            '.fb a@href': 'https://facebook.com/#{mulher.fb}',
+
+            '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
+
+            '.github a@href': 'https://github.com/#{mulher.github}',
+
         }
     }
 };
+
+$(document).ready(function(){
+    console.log('teste');
+});
 
 $(function(){
 
@@ -154,7 +165,9 @@ $(function(){
     // var mulheres = {"mulheres": data};
 
     $.get("https://damp-beyond-4562.herokuapp.com/contacts.json?access_token=farofa3",{crossDomain: true}, function(data){
+
         var mulheres = {"mulheres": data};
+
         $p('section').render(mulheres, directive);
     });
 
