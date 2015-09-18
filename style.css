@@ -19,9 +19,14 @@ header h1 {
     font-weight: 300;
 }
 
-.main {
+.main, .search-form {
     margin: 2%;
     text-align: center;
+}
+
+.search {
+    width: 75%;
+    font-size: 1rem;
 }
 
 .card {
