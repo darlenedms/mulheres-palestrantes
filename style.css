@@ -69,6 +69,7 @@ ul.tags {
     margin-top: 5%;
     margin-bottom: 5%;
     height: 80px;
+    overflow: hidden;
 }
 
 ul.tags li {
