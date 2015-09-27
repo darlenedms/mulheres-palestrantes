@@ -5,13 +5,13 @@ var directive = {
             'h3': 'mulher.name',
 
             '.tags li':{
-                'tag<-mulher.tag_names':{
+                'tag<-mulher.interests':{
                     '.': 'tag'
                 }
             },
 
-            '.city': 'mulher.city',
-            'img.gravatar@src': 'mulher.gravatar_url',
+            '.location': 'mulher.location',
+            'img.photo@src': 'mulher.photo',
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
 
             '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
@@ -23,9 +23,8 @@ var directive = {
 };
 
 $(function(){
-    $.get("https://damp-beyond-4562.herokuapp.com/contacts.json?access_token=farofa3", {crossDomain: true}, function(data) {
-
-        var mulheres = {"mulheres": data};
+    $.get("mulheres.json", {crossDomain: true}, function(data) {
+        var mulheres = data;
         $p('main').render(mulheres, directive);
 
         enableSearch();
