@@ -40,9 +40,11 @@ function enableSearch() {
         filter = this.value;
 
         $cards.find("h3:not(:Contains(" + filter + "))").parent().hide();
+        $cards.find("p:not(:Contains(" + filter + "))").parent().hide();
         $cards.find("li:not(:Contains(" + filter + "))").parent().parent().hide();
 
         $cards.find("h3:Contains(" + filter + ")").parent().show();
+        $cards.find("p:Contains(" + filter + ")").parent().show();
         $cards.find("li:Contains(" + filter + ")").parent().parent().show();
     });
 };
