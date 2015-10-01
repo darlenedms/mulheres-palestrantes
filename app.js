@@ -1,3 +1,4 @@
+
 //PURE.js template init
 var directive = {
     'article':{
@@ -11,7 +12,9 @@ var directive = {
             },
 
             '.location': 'mulher.location',
-            'img.photo@src': 'mulher.photo',
+            'img.photo@src': function(){
+              generateGravatarUrl(this.email);
+            },
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
             '.fb@class': function(context){
                 return this.fb ?  "" : "hidden";
@@ -29,7 +32,7 @@ var directive = {
 };
 
 $(function(){
-    $.get("mulheres.json", {crossDomain: true}, function(data) {
+    $.get("mulheres_sem_foto.json", {crossDomain: true}, function(data) {
         var mulheres = data;
         $p('main').render(mulheres, directive);
 
@@ -83,3 +86,24 @@ function removeAccents(text) {
         .replace(/[úùû]/g, 'u')
         .toLowerCase();
 };
+
+function generateGravatarUrl(email){
+    var hash = md5(email);
+    var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=pg&d=404";
+    gravatarExists(email, function(email){
+        return imageURL()
+    }, function(){
+        return 'img/placeholder-female.jpg';
+    });
+    return imageURL;
+}
+
+function gravatarExists(email, success, error){
+    $.get(email).
+        success(success(email)).
+        fail(error);
+}
+
+$(function(){
+
+})
