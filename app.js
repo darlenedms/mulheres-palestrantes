@@ -13,11 +13,17 @@ var directive = {
             '.location': 'mulher.location',
             'img.photo@src': 'mulher.photo',
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
-
+            '.fb@class': function(context){
+                return this.fb ?  "" : "hidden";
+            },
             '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
-
+            '.twitter @class': function(context){
+                return this.twitter ?  "" : "hidden";
+            },
             '.github a@href': 'https://github.com/#{mulher.github}',
-
+            '.github @class': function(context){
+                return this.github ?  "" : "hidden";
+            },
         }
     }
 };

@@ -78,15 +78,19 @@ ul.tags {
 }
 
 ul.tags li {
-  display: inline-block;
-  background-color: #ccc;
-  border-radius: 10px;
-  color: #666;
-  padding: 2px 6px;
-  margin: 2px;
-  font-size: 0.8rem;
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #666;
+    padding: 2px 6px;
+    margin: 2px;
+    font-size: 0.8rem;
 }
 
 .cidade {
     font-size: 0.8rem;
+}
+
+ul.social-media li.hidden {
+    visibility: hidden;
 }
