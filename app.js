@@ -13,20 +13,20 @@ var directive = {
 
             '.location': 'mulher.location',
             'img.photo@src': function(){
-              generateGravatarUrl(this.email);
+              return generateGravatarUrl(this.email);
             },
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
-            '.fb@class': function(context){
+            '.fb@class': function(){
                 return this.fb ?  "" : "hidden";
             },
             '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
-            '.twitter @class': function(context){
+            '.twitter @class': function(){
                 return this.twitter ?  "" : "hidden";
             },
             '.github a@href': 'https://github.com/#{mulher.github}',
-            '.github @class': function(context){
+            '.github @class': function(){
                 return this.github ?  "" : "hidden";
-            },
+            }
         }
     }
 };
