@@ -26,15 +26,15 @@ header h1 {
 }
 
 .card {
-  padding-top: 2%;
-  margin: 2%;
-  border: solid 1px #ccc;
-  border-radius: 4%;
+    padding-top: 2%;
+    margin: 2%;
+    border: solid 1px #ccc;
+    border-radius: 4%;
 }
 
 .card h3 {
-  height: 24px;
-  overflow: hidden;
+    height: 24px;
+    overflow: hidden;
 }
 
 .card img {
