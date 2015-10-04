@@ -24,14 +24,8 @@ Gravatar:
 https://en.gravatar.com/site/implement/images/
 
 Templates:
-(Sync template)
 pure.js para template
 http://beebole.com/pure/
-
-(Async template)
-Preciso verificar se o gravatar existe, para substituir pelo placeholder
-http://akdubya.github.io/dustjs/
-
 
 jquery para consumir o json
 http://api.jquery.com/jQuery.getJSON/
