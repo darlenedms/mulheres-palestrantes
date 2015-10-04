@@ -32,7 +32,7 @@ var directive = {
 };
 
 $(function(){
-    $.get("mulheres_sem_foto.json", {crossDomain: true}, function(data) {
+    $.get("mulheres.json", {crossDomain: true}, function(data) {
         var mulheres = data;
         $p('main').render(mulheres, directive);
 
@@ -88,22 +88,9 @@ function removeAccents(text) {
 };
 
 function generateGravatarUrl(email){
-    var hash = md5(email);
-    var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=pg&d=404";
-    gravatarExists(email, function(email){
-        return imageURL()
-    }, function(){
-        return 'img/placeholder-female.jpg';
-    });
-    return imageURL;
+  var hash = md5(email),
+  // must provide full path for the gravatar image check
+  placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg",
+  imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
+  return email ? imageURL : placeholderImagePath;
 }
-
-function gravatarExists(email, success, error){
-    $.get(email).
-        success(success(email)).
-        fail(error);
-}
-
-$(function(){
-
-})
