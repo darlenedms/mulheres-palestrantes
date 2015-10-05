@@ -5,6 +5,8 @@ Mulheres Palestrantes
 Listagem de mulheres disponíveis para palestrar em eventos de tecnologia, design, empreendedorismo, entre outros.
 Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request :D
 
+**Como contribuir com o projeto?**
+Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request. :)
 ***
 
 **Versão longa**
