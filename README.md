@@ -1,15 +1,11 @@
-Mulheres Palestrantes
+#Mulheres Palestrantes
 --
 
-**TL;DR**
+###TL;DR
 Listagem de mulheres disponíveis para palestrar em eventos de tecnologia, design, empreendedorismo, entre outros.
 Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request :D
 
-**Como contribuir com o projeto?**
-Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request. :)
-***
-
-**Versão longa**
+###Versão longa
 Dado o ainda pequeno número de mulheres palestrando em eventos (especialmente de tecnologia) aqui no Brasil, uma planilha foi criada a fim de dar mais visibilidade a essas mulheres e incentivar outras a começar.
 
 Este projeto nasceu da tentativa de organizar os dados dessa planilha de forma mais visual, tornando-os de mais fácil acesso, reduzindo duplicidade e facilitando buscas.
@@ -20,8 +16,12 @@ Originalmente em http://github.com/darlenedms/mulheres-palestrantes
 
 ***
 
-Ferramentas e materiais utilizados
--
+##Como contribuir com o projeto?
+Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request. :)
+***
+
+##Ferramentas e materiais utilizados
+
 
 pure.js para template
 http://beebole.com/pure/
