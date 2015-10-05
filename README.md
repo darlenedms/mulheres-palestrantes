@@ -1,5 +1,4 @@
 #Mulheres Palestrantes
---
 
 ###TL;DR
 Listagem de mulheres disponíveis para palestrar em eventos de tecnologia, design, empreendedorismo, entre outros.
