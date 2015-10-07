@@ -17,6 +17,10 @@ Originalmente em http://github.com/darlenedms/mulheres-palestrantes
 
 ##Como contribuir com o projeto?
 Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request. :)
+
+Para incluir mulheres na lista, basta adicionar uma entrada no arquivo mulheres.json. Os únicos campos obrigatórios são nome e email.
+Caso você encontre alguma dificuldade ou não tenha muito conhecimento em git, fique livre para abrir um issue pedindo a inclusão ou tirar dúvidas conosco sobre como fazer.
+
 ***
 
 ##Ferramentas e materiais utilizados
