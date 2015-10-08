@@ -39,6 +39,8 @@ header h1 {
 }
 
 .card img {
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
 }
 

@@ -1,4 +1,3 @@
-
 //PURE.js template init
 var directive = {
     'article':{
@@ -13,7 +12,7 @@ var directive = {
 
             '.location': 'mulher.location',
             'img.photo@src': function(){
-              return generateGravatarUrl(this.email);
+                return this.photo || generateGravatarUrl(this.email);
             },
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
             '.fb@class': function(){
@@ -33,9 +32,7 @@ var directive = {
 
 $(function(){
     $.get("mulheres.json", {crossDomain: true}, function(data) {
-        var mulheres = data;
-        $p('main').render(mulheres, directive);
-
+        $p('main').render(data, directive);
         enableSearch();
     });
 });
@@ -88,9 +85,8 @@ function removeAccents(text) {
 };
 
 function generateGravatarUrl(email){
-  var hash = md5(email),
-  // must provide full path for the gravatar image check
-  placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg",
-  imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
-  return email ? imageURL : placeholderImagePath;
+    var hash = md5(email);
+    var placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg";
+    var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
+    return email ? imageURL : placeholderImagePath;
 }
