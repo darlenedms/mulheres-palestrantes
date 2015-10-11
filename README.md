@@ -37,3 +37,6 @@ https://shancarter.github.io/mr-data-converter/
 
 urls do Gravatar geradas seguindo os padrões definidos na documentação
 https://br.gravatar.com/site/implement/images/
+
+bootstrap como framework de css
+http://getbootstrap.com/
