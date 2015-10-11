@@ -16,6 +16,14 @@ header h1 {
     font-weight: 300;
 }
 
+.navbar-right {
+    float: right;
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
 .main, .search-form {
     margin: 2%;
     text-align: center;
