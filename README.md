@@ -21,10 +21,10 @@ Caso você encontre alguma dificuldade ou não tenha muito conhecimento em git, 
 
 ##Ferramentas e materiais utilizados
 
-###Gravatar:
+###Gravatar
 https://en.gravatar.com/site/implement/images/
 
-###Templates:
+###Templates
 pure.js para template
 http://beebole.com/pure/
 
