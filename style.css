@@ -41,6 +41,11 @@ header h1 {
     border-radius: 50%;
 }
 
+.card .photo {
+    height: 80px;
+    width: 80px;
+}
+
 .card * {
     margin-bottom: 5%;
 }
