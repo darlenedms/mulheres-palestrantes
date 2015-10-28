@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  padding-bottom: 140px;
+}
+
 header, footer {
     background-color: #cc0066;
     color: #fff;
@@ -10,6 +14,7 @@ header, footer {
 
 header {
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -31,6 +36,7 @@ header h1 {
 
 .card-wrapper {
     display: inline-block;
+    min-height: 100%;
 }
 
 .card {
@@ -38,6 +44,7 @@ header h1 {
     margin: 2%;
     border: solid 1px #ccc;
     border-radius: 4%;
+    min-height: 245px;
 }
 
 .card h3 {
@@ -60,6 +67,9 @@ header h1 {
 
 footer {
     text-align: right;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
 }
 
 footer img {
@@ -107,3 +117,5 @@ ul.tags li {
 ul.social-media li.hidden {
     visibility: hidden;
 }
+
+
