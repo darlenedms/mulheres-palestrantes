@@ -134,8 +134,9 @@
         {"name":"Thaise Saeter","interests":["Comunicação", "Economia Criativa "],"location":"Porto Alegre/RS","photo":null,"email":"thaise@jornalistica.com.br","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Thalita Nick Pinheiro ","interests":["Development", "Backend", "Qualidade"],"location":"Belo Horizonte/MG","photo":null,"email":"thalitanpg@gmail.com ","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Uafa Smaili","interests":["SEO", "UX Design", "Mídias Sociais"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
-        {"name":"Valéria Barros","interests":["Programação", "Alfabetização Para Web", "Software Livre", "Mulheres na TI"],"location":"Goiânia/GO","photo":null,"email":"valeria@valeriabarros.eu","linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Valéria Barros","interests":["Programação", "Alfabetização Para Web", "PHP", "Mercado de Trabalho", "Software Livre", "Mulheres na Tecnologia"],"location":"São Paulo/SP","photo":null,"email":"valeria@valeriabarros.eu","linkedin":"https://br.linkedin.com/in/valeriabarros","github":null,"twitter":"@barros_val","fb":null},
         {"name":"Vanessa Rocha","interests":["Monetização", "internacionalização"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Vanessa Tonini","interests":["Acessibilidade", "FrontEnd"],"location":"São Paulo/SP","photo":null,"email":"vanessametonini@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null}
     ]
 }
