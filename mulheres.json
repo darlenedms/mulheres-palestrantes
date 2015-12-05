@@ -137,7 +137,7 @@
         {"name":"Valéria Barros","interests":["Programação", "Alfabetização Para Web", "PHP", "Mercado de Trabalho", "Software Livre", "Mulheres na Tecnologia"],"location":"São Paulo/SP","photo":null,"email":"valeria@valeriabarros.eu","linkedin":"https://br.linkedin.com/in/valeriabarros","github":null,"twitter":"@barros_val","fb":null},
         {"name":"Vanessa Rocha","interests":["Monetização", "internacionalização"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Vanessa Tonini","interests":["Acessibilidade", "FrontEnd"],"location":"São Paulo/SP","photo":null,"email":"vanessametonini@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
-        {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null}
-        {"name":"Yasodara Córdova","interests":["Web, Semantic Web, Data, Open Data, Datavis, UX Design"],"location":"São Paulo/SP","photo":null,"yasodara.cordova@gmail.com","https://br.linkedin.com/in/yasodara","https://github.com/yaso","https://twitter.com/yaso","fb":null}
-
+        {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Yasodara Córdova","interests":["Web, Semantic Web, Data, Open Data, Datavis, UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"https://br.linkedin.com/in/yasodara","github":"https://github.com/yaso","twitter":"https://twitter.com/yaso","fb":null}
+      ]
 }
