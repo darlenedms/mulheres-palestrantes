@@ -9,12 +9,12 @@ body {
 header, footer {
     background-color: #cc0066;
     color: #fff;
-    padding: 2%;
 }
 
 header {
     text-align: center;
     width: 100%;
+    padding: 2%;
 }
 
 header h1 {
@@ -70,10 +70,11 @@ footer {
     width: 100%;
     bottom: 0px;
     position: fixed;
+    padding: 1%;
 }
 
 footer img {
-    width: 50px;
+    width: 20px;
 }
 
 .social-media img {
@@ -117,5 +118,3 @@ ul.tags li {
 ul.social-media li.hidden {
     visibility: hidden;
 }
-
-
