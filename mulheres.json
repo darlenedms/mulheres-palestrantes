@@ -1,6 +1,6 @@
 {
     "mulheres": [
-        {"name":"Alda Rocha","interests":["UX Designer", "Web Designer and Frontend developer"],"location":"São Paulo/SP","photo":null,"email":"mj.coffeeholick@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Alda Rocha","interests":["UX Design", "Web Design", "Front-end", "Rails", "Design thinking", "leadership", "Creative process", "Entrepreneurship"],"location":"São Paulo/SP","photo":null,"email":"mj.coffeeholick@gmail.com","linkedin":"https://br.linkedin.com/in/mjcoffeeholick","github":"https://github.com/mjcoffeeholick","twitter":"https://twitter.com/mjcoffeeholick","fb":"https://www.facebook.com/mjcoffeholick"},
         {"name":"Alice Coutinho","interests":["Publicidade"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Amanda Santana","interests":["Programação"],"location":"Aracaju/SE","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Amanda Santana","interests":["Desenvolvimento Front e Back-end", "CakePHP3", "Rails4", "Laravel5"],"location":"Aracaju/SE","photo":null,"email":"amandasantanati@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
