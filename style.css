@@ -1,4 +1,7 @@
 * {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -34,22 +37,18 @@ header h1 {
     text-align: center;
 }
 
-.card-wrapper {
-    display: inline-block;
-    min-height: 100%;
+.search {
+    width: 75%;
+    font-size: 1rem;
 }
 
 .card {
-    padding-top: 2%;
-    margin: 2%;
     border: solid 1px #ccc;
     border-radius: 4%;
-    min-height: 245px;
-}
-
-.card h3 {
-  height: 24px;
-  overflow: hidden;
+    display: inline-block;
+    padding-top: 2%;
+    margin: 2%;
+    width: 260px;
 }
 
 .card img {
@@ -85,7 +84,6 @@ footer img {
 ul.social-media {
     padding-left: 0px;
     list-style-type: none;
-    height: 42px;
 }
 
 ul.social-media li {
@@ -108,7 +106,7 @@ ul.tags li {
     color: #666;
     padding: 2px 6px;
     margin: 2px;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
 
 .cidade {
