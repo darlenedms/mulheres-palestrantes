@@ -3,7 +3,8 @@
 }
 
 body {
-  padding-bottom: 140px;
+    background: #f8f8f8; 
+    padding-bottom: 140px;
 }
 
 header, footer {
@@ -27,6 +28,7 @@ header h1 {
 
 .navbar {
     border-radius: 0px !important;
+    padding: 0 1%;
 }
 
 .main, .search-form {
@@ -40,29 +42,27 @@ header h1 {
 }
 
 .card {
-    padding-top: 2%;
     margin: 2%;
-    border: solid 1px #ccc;
-    border-radius: 4%;
-    min-height: 245px;
+    border: 1px solid #eee;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 365px;
+    padding: 20px;
 }
-
 .card h3 {
-    height: 24px;
+    color: #cc0066;
+    margin: 10px 0;
     overflow: hidden;
 }
-
 .card img {
     border-radius: 50%;
 }
-
+.card .location {
+    color: #666;
+}
 .card .photo {
     height: 80px;
     width: 80px;
-}
-
-.card * {
-    margin-bottom: 5%;
 }
 
 footer {
@@ -85,11 +85,13 @@ footer img {
 ul.social-media {
     padding-left: 0px;
     list-style-type: none;
-    height: 42px;
+    margin: 0;
 }
 
 ul.social-media li {
     display: inline;
+    height: 29px;
+    margin: 0 2px;
 }
 
 ul.tags {
@@ -97,16 +99,15 @@ ul.tags {
     padding-left: 0px;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 100px;
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 ul.tags li {
     display: inline-block;
-    background-color: #ccc;
-    border-radius: 10px;
-    color: #666;
-    padding: 2px 6px;
+    background: #eee;
+    border-radius: 4px;
+    color: #444;
+    padding: 2px 8px;
     margin: 2px;
     font-size: 1.3rem;
 }
@@ -117,4 +118,9 @@ ul.tags li {
 
 ul.social-media li.hidden {
     visibility: hidden;
+}
+
+/* bootstrap overrides */
+.col-sm-3 {
+    padding: 15px;
 }
