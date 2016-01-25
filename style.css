@@ -1,22 +1,32 @@
 * {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  padding-bottom: 140px;
 }
 
 header, footer {
     background-color: #cc0066;
     color: #fff;
-    padding: 2%;
 }
 
 header {
     text-align: center;
+    width: 100%;
+    padding: 2%;
 }
 
 header h1 {
     font-weight: 300;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar {
+    border-radius: 0px !important;
 }
 
 .main, .search-form {
@@ -24,22 +34,31 @@ header h1 {
     text-align: center;
 }
 
-.search {
-    width: 75%;
-    font-size: 1rem;
+.card-wrapper {
+    display: inline-block;
+    min-height: 100%;
 }
 
 .card {
-    border: solid 1px #ccc;
-    border-radius: 4%;
-    display: inline-block;
     padding-top: 2%;
     margin: 2%;
-    width: 260px;
+    border: solid 1px #ccc;
+    border-radius: 4%;
+    min-height: 245px;
+}
+
+.card h3 {
+    height: 24px;
+    overflow: hidden;
 }
 
 .card img {
     border-radius: 50%;
+}
+
+.card .photo {
+    height: 80px;
+    width: 80px;
 }
 
 .card * {
@@ -48,10 +67,14 @@ header h1 {
 
 footer {
     text-align: right;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    padding: 1%;
 }
 
 footer img {
-    width: 50px;
+    width: 20px;
 }
 
 .social-media img {
@@ -62,6 +85,7 @@ footer img {
 ul.social-media {
     padding-left: 0px;
     list-style-type: none;
+    height: 42px;
 }
 
 ul.social-media li {
@@ -73,20 +97,24 @@ ul.tags {
     padding-left: 0px;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 80px;
+    height: 100px;
     overflow: hidden;
 }
 
 ul.tags li {
-  display: inline-block;
-  background-color: #ccc;
-  border-radius: 10px;
-  color: #666;
-  padding: 2px 6px;
-  margin: 2px;
-  font-size: 0.8rem;
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: #666;
+    padding: 2px 6px;
+    margin: 2px;
+    font-size: 1.3rem;
 }
 
 .cidade {
     font-size: 0.8rem;
+}
+
+ul.social-media li.hidden {
+    visibility: hidden;
 }

@@ -11,22 +11,28 @@ var directive = {
             },
 
             '.location': 'mulher.location',
-            'img.photo@src': 'mulher.photo',
+            'img.photo@src': function(){
+                return this.photo || generateGravatarUrl(this.email);
+            },
             '.fb a@href': 'https://facebook.com/#{mulher.fb}',
-
+            '.fb@class': function(){
+                return this.fb ?  "" : "hidden";
+            },
             '.twitter a@href': 'https://twitter.com/#{mulher.twitter}',
-
+            '.twitter @class': function(){
+                return this.twitter ?  "" : "hidden";
+            },
             '.github a@href': 'https://github.com/#{mulher.github}',
-
+            '.github @class': function(){
+                return this.github ?  "" : "hidden";
+            }
         }
     }
 };
 
 $(function(){
     $.get("mulheres.json", {crossDomain: true}, function(data) {
-        var mulheres = data;
-        $p('main').render(mulheres, directive);
-
+        $p('main').render(data, directive);
         enableSearch();
     });
 });
@@ -39,11 +45,13 @@ function enableSearch() {
     $search.keyup(function(e) {
         filter = this.value;
 
-        $cards.find("h3:not(:Contains(" + filter + "))").parent().hide();
-        $cards.find("li:not(:Contains(" + filter + "))").parent().parent().hide();
+        $cards.find("h3:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
+        $cards.find("p:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
+        $cards.find("li:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
 
-        $cards.find("h3:Contains(" + filter + ")").parent().show();
-        $cards.find("li:Contains(" + filter + ")").parent().parent().show();
+        $cards.find("h3:Contains(" + filter + ")").parents('.card-wrapper').show();
+        $cards.find("p:Contains(" + filter + ")").parents('.card-wrapper').show();
+        $cards.find("li:Contains(" + filter + ")").parents('.card-wrapper').show();
     });
 };
 
@@ -75,3 +83,10 @@ function removeAccents(text) {
         .replace(/[úùû]/g, 'u')
         .toLowerCase();
 };
+
+function generateGravatarUrl(email){
+    var hash = md5(email);
+    var placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg";
+    var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
+    return email ? imageURL : placeholderImagePath;
+}
