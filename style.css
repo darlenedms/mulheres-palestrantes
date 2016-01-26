@@ -95,6 +95,7 @@ ul.social-media li {
 }
 
 ul.tags {
+    height: 100px;
     list-style-type: none;
     padding-left: 0px;
     margin-top: 5%;
