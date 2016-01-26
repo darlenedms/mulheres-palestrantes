@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #f8f8f8; 
+    background: #f8f8f8 !important; 
     padding-bottom: 140px;
 }
 
@@ -30,7 +30,9 @@ header h1 {
     border-radius: 0px !important;
     padding: 0 1%;
 }
-
+main.main {
+    margin: 0 auto;
+}
 .main, .search-form {
     margin: 2%;
     text-align: center;
@@ -42,10 +44,11 @@ header h1 {
 }
 
 .card {
-    margin: 2%;
+    background: #fff;
     border: 1px solid #eee;
     border-radius: 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2%;
     min-height: 365px;
     padding: 20px;
 }
@@ -122,6 +125,13 @@ ul.social-media li.hidden {
 }
 
 /* bootstrap overrides */
+.navbar-nav > li > a:hover {
+    color: #cc0066 !important;
+}
 .col-sm-3 {
     padding: 15px;
+}
+.form-control {
+    border: 1px solid #ddd !important;
+    height: 44px !important;
 }
