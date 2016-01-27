@@ -92,6 +92,10 @@ ul.social-media li {
     display: inline;
 }
 
+ul.social-media li a {
+    color: #333;
+}
+
 ul.tags {
     list-style-type: none;
     padding-left: 0px;
