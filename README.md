@@ -21,6 +21,31 @@ Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulhe
 Para incluir mulheres na lista, basta adicionar uma entrada no arquivo mulheres.json. Os únicos campos obrigatórios são nome e email.
 Caso você encontre alguma dificuldade ou não tenha muito conhecimento em git, fique livre para abrir um issue pedindo a inclusão ou tirar dúvidas conosco sobre como fazer.
 
+##Como se adicionar no .json
+###Gravatar: https://en.gravatar.com/
+Crie uma conta e faça upload do seu avatar ou use a sua conta já existente
+
+###Campos do .json disecados
+```
+{"name":"Alda Rocha",
+ "interests":["UX Design",
+              "Web Design",
+              "Front-end",
+              "Rails",
+              "Design thinking",
+              "leadership",
+              "Creative process",
+              "Entrepreneurship"],
+  "location":"São Paulo/SP",
+  "photo":null,
+  "email":"mj.coffeeholick@gmail.com",
+  "linkedin":"https://br.linkedin.com/in/mjcoffeeholick",
+  "github":"https://github.com/mjcoffeeholick",
+  "twitter":"https://twitter.com/mjcoffeeholick",
+  "fb":"https://www.facebook.com/mjcoffeholick"
+}
+```
+
 ##Ferramentas e materiais utilizados
 
 ###Gravatar
