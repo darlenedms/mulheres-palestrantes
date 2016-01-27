@@ -25,6 +25,10 @@ var directive = {
             '.github a@href': 'https://github.com/#{mulher.github}',
             '.github @class': function(){
                 return this.github ?  "" : "hidden";
+            },
+            '.linkedin a@href': 'https://www.linkedin.com/in/#{mulher.linkedin}',
+            '.linkedin @class': function(){
+                return this.linkedin ?  "" : "hidden";
             }
         }
     }
