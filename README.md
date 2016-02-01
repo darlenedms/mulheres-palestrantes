@@ -19,41 +19,8 @@ Originalmente em http://github.com/darlenedms/mulheres-palestrantes
 Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request. :)
 
 Para incluir mulheres na lista, basta adicionar uma entrada no arquivo mulheres.json. Os únicos campos obrigatórios são nome e email.
+Existe uma explicação mais detalhada no arquivo [CONTRIBUTING.md](./CONTRIBUTING.md)
 Caso você encontre alguma dificuldade ou não tenha muito conhecimento em git, fique livre para abrir um issue pedindo a inclusão ou tirar dúvidas conosco sobre como fazer.
-
-##Como se adicionar no .json
-###Gravatar: https://en.gravatar.com/
-Para adicionar uma photo ao seu card, crie uma conta e faça upload do seu avatar no gravatar ou use a sua conta já existente
-
-###Campos do .json disecados
-Em **linkedin**, **github**, **twitter** e **fb**: usar apenas o username da url da rede social.
-
-**Exemplo:**
-
-https://www.facebook.com/foo.bar >> "foo.bar"
-
-https://br.linkedin.com/in/foob >> "foob"
-
-etc
-
-**Evite muitas tags em "interests".** 
-
-Dependendo do tamanho, cabem até 7 no card da página, mas o ideal seria usar **4** tags no **máximo**.
-```
-{"name":"Foo Bar",
- "interests":["UX Design",
-              "Web Design",
-              "Front-end",
-              "Rails"],
-  "location":"São Paulo/SP",
-  "photo":null,
-  "email":"foobar@domain.com",
-  "linkedin":"foobarname",
-  "github":"foobarname",
-  "twitter":"foobarname",
-  "fb":"foo.bar"
-}
-```
 
 ##Ferramentas e materiais utilizados
 
