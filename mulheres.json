@@ -1,6 +1,6 @@
 {
     "mulheres": [
-        {"name":"Alda Rocha","interests":["UX Design", "Web Design", "Front-end", "Rails", "Design thinking", "leadership", "Creative process", "Entrepreneurship"],"location":"São Paulo/SP","photo":null,"email":"mj.coffeeholick@gmail.com","linkedin":"mjcoffeeholick","github":"https://github.com/mjcoffeeholick","twitter":"https://twitter.com/mjcoffeeholick","fb":"https://www.facebook.com/mjcoffeholick"},
+        {"name":"Alda Rocha","interests":["UX Design", "Web Design", "Front-end", "Rails", "Design thinking", "leadership", "Creative process", "Entrepreneurship"],"location":"São Paulo/SP","photo":null,"email":"mj.coffeeholick@gmail.com","linkedin":"mjcoffeeholick","github":"mjcoffeeholick","twitter":"mjcoffeeholick","fb":"mjcoffeholick"},
         {"name":"Alice Coutinho","interests":["Publicidade"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Amanda Santana","interests":["Programação"],"location":"Aracaju/SE","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Amanda Santana","interests":["Desenvolvimento Front e Back-end", "CakePHP3", "Rails4", "Laravel5"],"location":"Aracaju/SE","photo":null,"email":"amandasantanati@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
@@ -140,6 +140,6 @@
         {"name":"Vanessa Rocha","interests":["Monetização", "internacionalização"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Vanessa Tonini","interests":["Acessibilidade", "FrontEnd"],"location":"São Paulo/SP","photo":null,"email":"vanessametonini@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
-        {"name":"Yasodara Córdova","interests":["Web, Semantic Web, Data, Open Data, Datavis, UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"https://github.com/yaso","twitter":"https://twitter.com/yaso","fb":null}
+        {"name":"Yasodara Córdova","interests":["Web, Semantic Web, Data, Open Data, Datavis, UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null}
       ]
 }
