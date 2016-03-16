@@ -49,13 +49,13 @@ function enableSearch() {
     $search.keyup(function(e) {
         filter = this.value;
 
-        $cards.find("h3:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
-        $cards.find("p:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
-        $cards.find("li:not(:Contains(" + filter + "))").parents('.card-wrapper').hide();
+        $cards.find("h3:not(:Contains(" + filter + "))").parents('.card').hide();
+        $cards.find("p:not(:Contains(" + filter + "))").parents('.card').hide();
+        $cards.find("li:not(:Contains(" + filter + "))").parents('.card').hide();
 
-        $cards.find("h3:Contains(" + filter + ")").parents('.card-wrapper').show();
-        $cards.find("p:Contains(" + filter + ")").parents('.card-wrapper').show();
-        $cards.find("li:Contains(" + filter + ")").parents('.card-wrapper').show();
+        $cards.find("h3:Contains(" + filter + ")").parents('.card').show();
+        $cards.find("p:Contains(" + filter + ")").parents('.card').show();
+        $cards.find("li:Contains(" + filter + ")").parents('.card').show();
     });
 };
 

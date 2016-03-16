@@ -1,9 +1,12 @@
 * {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background: #f8f8f8 !important; 
+    background: #f8f8f8;
     padding-bottom: 140px;
 }
 
@@ -15,57 +18,78 @@ header, footer {
 header {
     text-align: center;
     width: 100%;
-    padding: 2%;
+    padding: 2rem;
 }
 
 header h1 {
-    font-weight: 300;
+    text-shadow: 2px 2px #861028;
 }
 
-.navbar-right {
-    float: right;
+.contribute {
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    text-align: right;
+    padding: 0.8rem 1.5rem;
 }
 
-.navbar {
-    border-radius: 0px !important;
-    padding: 0 1%;
+.contribute a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #777;
 }
-main.main {
-    margin: 0 auto;
+
+.contribute a:hover {
+    color: #333;
 }
-.main, .search-form {
-    margin: 2%;
+
+.main {
+    margin: 1rem;
     text-align: center;
 }
 
-.card-wrapper {
-    display: inline-block;
-    min-height: 100%;
+.search-form {
+    margin: 2rem 2rem 0;
+}
+
+.search {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
 .card {
     background: #fff;
-    border: 1px solid #eee;
-    border-radius: 2%;
+    border: solid 1px #eee;
+    border-radius: 0.3rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 2%;
-    min-height: 365px;
-    padding: 20px;
+    display: inline-block;
+    margin: 1.5rem 1rem;
+    width: 270px;
 }
+
 .card h3 {
     color: #cc0066;
-    margin: 10px 0;
     overflow: hidden;
+    margin: 0.5rem 0;
 }
+
 .card img {
     border-radius: 50%;
 }
+
 .card .location {
     color: #666;
 }
+
 .card .photo {
     height: 80px;
     width: 80px;
+    margin-top: 2rem;
 }
 
 footer {
@@ -73,7 +97,7 @@ footer {
     width: 100%;
     bottom: 0px;
     position: fixed;
-    padding: 1%;
+    padding: 0.8rem 1.3rem;
 }
 
 footer img {
@@ -86,9 +110,9 @@ footer img {
 }
 
 ul.social-media {
-    padding-left: 0px;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0 0;
     list-style-type: none;
-    margin: 0;
 }
 
 ul.social-media li {
@@ -101,41 +125,39 @@ ul.social-media li a {
     color: #333;
 }
 
+ul.social-media li.hidden {
+    visibility: hidden;
+    display: none;
+}
+
 ul.tags {
-    height: 100px;
+    height: 120px;
     list-style-type: none;
-    padding-left: 0px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    overflow-y: auto;
+    padding: 0;
+    margin: 0.5rem;
+    overflow: hidden;
 }
 
 ul.tags li {
     display: inline-block;
-    background: #eee;
+    background-color: #eee;
     border-radius: 4px;
     color: #444;
-    padding: 2px 8px;
-    margin: 2px;
-    font-size: 1.3rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem;
+    font-size: 0.8rem;
 }
 
 .cidade {
     font-size: 0.8rem;
 }
 
-ul.social-media li.hidden {
-    visibility: hidden;
-}
+@media only screen and (max-device-width: 480px) {
+    .main {
+        margin: 0 auto;
+    }
 
-/* bootstrap overrides */
-.navbar-nav > li > a:hover {
-    color: #cc0066 !important;
-}
-.col-sm-3 {
-    padding: 15px;
-}
-.form-control {
-    border: 1px solid #ddd !important;
-    height: 44px !important;
+    .contribute {
+        text-align: center;
+    }
 }
