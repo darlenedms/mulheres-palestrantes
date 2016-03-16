@@ -65,11 +65,14 @@ header h1 {
 .card {
     background: #fff;
     border: solid 1px #eee;
-    border-radius: 0.3rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: .3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     display: inline-block;
     margin: 1.5rem 1rem;
+    padding: 1.5rem 1rem;
     width: 270px;
+    height: 370px;
+    overflow: hidden;
 }
 
 .card h3 {
@@ -89,7 +92,6 @@ header h1 {
 .card .photo {
     height: 80px;
     width: 80px;
-    margin-top: 2rem;
 }
 
 footer {
