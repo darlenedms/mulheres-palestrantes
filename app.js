@@ -57,7 +57,7 @@ function enableSearch() {
         $cards.find("p:Contains(" + filter + ")").parents('.card').show();
         $cards.find("li:Contains(" + filter + ")").parents('.card').show();
     });
-};
+}
 
 // Cria um Contains para que ele seja case-insensitive e ignore acentuação
 jQuery.expr[':'].Contains = function(element, i, arrFilter) {
@@ -86,7 +86,7 @@ function removeAccents(text) {
         .replace(/[óòôõ]/g, 'o')
         .replace(/[úùû]/g, 'u')
         .toLowerCase();
-};
+}
 
 function generateGravatarUrl(email){
     var hash = md5(email);
