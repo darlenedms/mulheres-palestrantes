@@ -166,8 +166,17 @@ ul.tags li {
 }
 
 @media only screen and (max-device-width: 480px) {
+    header {
+        padding: 2rem;
+    }
+
     .contribute {
         font-size: 1.1rem;
+    }
+
+    .fork-me {
+        top: -15px;
+        right: -15px;
     }
 
     .main {
