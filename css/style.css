@@ -41,6 +41,19 @@ header h1 {
     text-align: center;
 }
 
+.headline {
+    margin: 4rem 2rem;
+}
+
+.headline p {
+    font-size: 2rem;
+    color: #333;
+}
+
+.headline h2 {
+    color: #444;
+}
+
 .search-form {
     margin: 2rem 2rem 0;
 }
@@ -148,12 +161,25 @@ ul.tags li {
 }
 
 @media only screen and (max-device-width: 480px) {
+    .contribute {
+        font-size: 1.1rem;
+    }
+
     .main {
         margin: 0 auto;
     }
 
-    .contribute {
-        font-size: 1.1rem;
+    .headline {
+        margin: 2rem;
+        text-align: left;
+    }
+
+    .headline p {
+        font-size: 1.8rem;
+    }
+
+    .headline h2 {
+        margin-top: 1.3rem;
     }
 }
 
