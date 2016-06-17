@@ -26,10 +26,8 @@ header h1 {
 }
 
 .contribute {
-    text-decoration: none;
     font-size: 0.9em;
     color: #333;
-    text-shadow: 0px 1px 1px #861028;
 }
 
 .contribute:hover {
