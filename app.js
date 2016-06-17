@@ -11,6 +11,7 @@ var directive = {
             },
 
             '.location': 'mulher.location',
+            'img.photo@alt': 'mulher.name',
             'img.photo@src': function(){
                 return this.photo || generateGravatarUrl(this.email);
             },
