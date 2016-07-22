@@ -82,6 +82,7 @@ header h1 {
     padding: 1.5rem 1rem;
     width: 270px;
     height: 370px;
+    vertical-align: top;
     overflow: hidden;
 }
 
