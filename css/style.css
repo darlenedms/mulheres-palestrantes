@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
     background: #f8f8f8;
 }
@@ -20,25 +24,40 @@ header {
     border-bottom: 4px solid #861028;
 }
 
+.logo{
+  display: inline-block;
+  float: left;
+  padding: 2px;
+  vertical-align: middle;
+  margin: -13px 227px 0px -38px;
+}
+
+
 header h1 {
     text-shadow: 2px 2px #861028;
 }
 
 .contribute {
-    font-size: 0.9em;
-    color: #333;
+  background: #fff;
+  padding: 12px 20px;
+  margin-top: 100px;
+  margin-left: 550px;
+  margin-right: 45px;
+  font-size: 13px;
+  color: #000;
 }
 
 .contribute:hover {
     color: #000;
 }
 
+/*
 .fork-me {
     position: absolute;
     top: 0;
     right: 0;
     border: 0;
-}
+} */
 
 .main {
     margin: 1rem;
