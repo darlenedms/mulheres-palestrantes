@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+header, footer {
+    background-color: #cc0066;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 2rem 3rem;
+    border-bottom: 4px solid #861028;
+}
+
+header h1 {
+    text-shadow: 2px 2px #861028;
+}
+
+.contribute {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.contribute:hover {
+    color: #000;
+}
+
+.fork-me {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+.main {
+    margin: 1rem;
+    text-align: center;
+}
+
+.headline {
+    margin: 3rem 2rem;
+}
+
+.headline p {
+    font-size: 2rem;
+    color: #333;
+}
+
+.headline h2 {
+    color: #444;
+}
+
+.search-form {
+    margin: 2rem 2rem;
+}
+
+.search {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.card {
+    background: #fff;
+    border: solid 1px #eee;
+    border-radius: .3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem 1rem;
+    width: 270px;
+    height: 370px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.card h3 {
+    color: #cc0066;
+    overflow: hidden;
+    margin: 0.5rem 0;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+.card .location {
+    color: #666;
+}
+
+.card .photo {
+    height: 80px;
+    width: 80px;
+}
+
+footer {
+    text-align: right;
+    width: 100%;
+    bottom: 0px;
+    padding: 0.8rem 1.3rem;
+}
+
+footer img {
+    width: 20px;
+}
+
+.social-media img {
+    width: 29px;
+    display: inline;
+}
+
+ul.social-media {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0 0;
+    list-style-type: none;
+}
+
+ul.social-media li {
+    display: inline;
+    height: 29px;
+    margin: 0 2px;
+}
+
+ul.social-media li a {
+    color: #333;
+}
+
+ul.social-media li.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+ul.tags {
+    height: 120px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5rem;
+    overflow: hidden;
+}
+
+ul.tags li {
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+    color: #444;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.cidade {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+    header {
+        padding: 2rem;
+    }
+
+    .contribute {
+        font-size: 1.1rem;
+    }
+
+    .main {
+        margin: 0 auto;
+    }
+
+    .headline {
+        margin: 2rem;
+        text-align: left;
+    }
+
+    .headline p {
+        font-size: 1.8rem;
+    }
+
+    .headline h2 {
+        margin-top: 1.3rem;
+    }
+}
+
+@media only screen and (max-device-width: 360px) {
+    header h1 {
+        margin-bottom: 0.5rem;
+    }
+}
