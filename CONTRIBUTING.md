@@ -1,3 +1,9 @@
+# Como rodar o projeto
+Com npm instalado, rode no terminal:
+```sh
+$ npm start
+```
+
 #Como se adicionar no .json
 ##Gravatar: https://en.gravatar.com/
 Para adicionar uma photo ao seu card, crie uma conta e faça upload do seu avatar no gravatar ou use a sua conta já existente.

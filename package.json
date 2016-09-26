@@ -1,0 +1,30 @@
+{
+  "name": "mulheres-palestrantes",
+  "version": "1.0.0",
+  "description": "Listagem de mulheres disponíveis para palestrar em eventos de tecnologia, design, empreendedorismo, entre outros. Se você deseja contribuir melhorando o layout ou incluindo você ou outra mulher na lista, basta enviar um pull request :D",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insideoutprojectbr/mulheres-palestrantes.git"
+  },
+  "keywords": [
+    "mulheres",
+    "palestrantes",
+    "insideout",
+    "eventos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insideoutprojectbr/mulheres-palestrantes/issues"
+  },
+  "homepage": "https://github.com/insideoutprojectbr/mulheres-palestrantes#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
