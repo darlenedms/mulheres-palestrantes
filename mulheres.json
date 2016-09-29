@@ -56,6 +56,7 @@
         {"name":"Fabiana Rocha Batista","interests":["Empreendedorismo"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Fabiany Lima","interests":["Empreendedorismo"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Fernanda Bernardo","interests":["Front-End", "UX", "Desenvolvimento Web e Mobile", "Empreendedorismo", "Saúde"],"location":"São Paulo/SP","photo":null,"email":"fernandabernardo94@gmail.com","linkedin":"fernandabernardo","github":"FernandaBernardo","twitter":null,"fb":"feh.bernardo"},
+        {"name":"Fernanda Campagnucci","interests":["Open Data", "Open Government", "E-government", "Hackativismo"],"location":"São Paulo/SP","photo":null,"email":"campagnucci@gmail.com","linkedin":"fernandacampagnucci","github":"campagnucci","twitter":"fecampa","fb":"fcampagnucci"},
         {"name":"Fernanda Mano","interests":["Operações e Negócios digitais"],"location":"Rio de Janeiro/RJ","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Fernanda Nogueira","interests":["Mídias sociais"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Fernanda Wanderley","interests":["Linkedin", "Empreendedorismo"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
@@ -133,6 +134,7 @@
         {"name":"Rebeca Serpa","interests":["Jornalismo", "Blogs", "Igrejas", "MPB"],"location":"Osasco/SP","photo":null,"email":"rebeca.serpa@hotmail.com","linkedin":"rebeca-serpa-35560a45","github":null,"twitter":"rebecaserpa","fb":"rebeca.serpa"},
         {"name":"Rita Lino","interests":["Empreendedorismo", "Inovação", "Programação"],"location":"Santos/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Robertta Mota","interests":["Valuation", "Investimento", "Internacionalização"],"location":"Fortaleza/CE","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Ronaiza Cardoso","interests":["Web", "Programadora PHP", "Git", "Laravel"],"location":"Brasilia/DF","photo":"https://s.gravatar.com/avatar/f45e8318bf829e33e34c1b8b10e2cb1d?s=80","email":"ronaizacarda@gmail.com","linkedin":"ronaiza-cardoso-2a20b47b","github":"yesroh","twitter":"ronaizacard","fb":null},
         {"name":"Rosi Rodrigues","interests":["Empreendedorismo"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Samanta Cicilia","interests":["Testes", "Agilidade", "Automação", "Lean", "Continuos Delivery", "DevOps", "Qualidade de Software", "Comunidades"],"location":"Rio de Janeiro/RJ","photo":null,"email":"samycici@gmail.com","linkedin":null,"github":"samycici","twitter":"samantacicilia","fb":"samanta.cicilia"},
         {"name":"Samantha Rosa","interests":["UX (user experience)", "Design e Educação"],"location":"Porto Alegre/RS","photo":null,"email":"sahrosa@gmail.com / srosa@thoughtworks.com","linkedin":null,"github":null,"twitter":null,"fb":null},
@@ -155,8 +157,7 @@
         {"name":"Vanessa Me Tonini","interests":["Métodos Ágeis","Scrum","Agilidade","Marialab","Acessibilidade","FrontEnd","Git","Magento"],"location":"São Paulo/SP","photo":null,"email":"vanessametonini@gmail.com","linkedin":"vanessametonini","github":"vanessametonini","twitter":"vanessametonini","fb":"vanessametonini"},
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Yanne Moreira","interests":["Wordpress", "FrontEnd", "Design", "Interface Design", "UX Design"],"location":"Curitiba/PR","photo":null,"email":"yanne.b.moreira@gmail.com","linkedin":"yannemoreira","github":"riopse","twitter":null,"fb":null},
-        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null},
-        {"name":"Ronaiza Cardoso","interests":["Web", "Programadora PHP", "Git", "Laravel"],"location":"Brasilia/DF","photo":"https://s.gravatar.com/avatar/f45e8318bf829e33e34c1b8b10e2cb1d?s=80","email":"ronaizacarda@gmail.com","linkedin":"ronaiza-cardoso-2a20b47b","github":"yesroh","twitter":"ronaizacard","fb":null}
+        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null}
         
       ]
 }
