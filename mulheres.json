@@ -102,7 +102,8 @@
         {"name":"Mariana Maneira","interests":["Design", "UX", "Wordpress", "Costura"],"location":"São Paulo/SP","photo":null,"email":"mmaneira@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Marianne Costa","interests":["Empreendedorismo Social", "Turismo", "Sustentabilidade"],"location":"São Paulo/SP","photo":null,"email":"marianne@raizesds.com.br","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Mariela Castro","interests":["Impacto da tecnologia e das novas mídias na comunicação e na vida profissional"],"location":"Curitiba/PR","photo":null,"email":"mariela.castrosantos@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
-        {"name":"Marina Arilha Silva ","interests":["Negócios sociais", "Inovação social "],"location":"Jundiaí/SP","photo":null,"email":"eusoumarina@inpulsa.me","linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Marina Arilha Silva","interests":["Negócios sociais", "Inovação social"],"location":"Jundiaí/SP","photo":null,"email":"eusoumarina@inpulsa.me","linkedin":null,"github":null,"twitter":null,"fb":null},
+        {"name":"Martina Scherrer","interests":["Publicidade e Propaganda", "Empreendedorismo", "Marketing Digital", "Mídias Sociais", "Planejamento Estratégico e de Comunicação"],"location":"Porto Alegre/RS","photo":"https://s.gravatar.com/avatar/e3a29c667bd11908fe3006b90bc61619?s=80","email":"tinscherrer@gmail.com","linkedin":"martinascherrer","github":"tinascherrer","twitter":"tinascherrer","fb":"ScherrerTina"},
         {"name":"Mayara Carolina de Paula","interests":["Permacultura", "Sustentabilidade"],"location":"Fortaleza/CE","photo":null,"email":"mayaradepaula.arq@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Mayra Paola","interests":["Facilitação", "Empreendedorismo", "Engenharia de Produção", "Lean", "Inception Enxuta"],"location":"Porto Alegre/RS","photo":"https://avatars2.githubusercontent.com/u/13318439?v=3&s=400","email":null,"linkedin":null,"github":"MayraPaola","twitter":null,"fb":null},
         {"name":"Melisssa Devens","interests":["Social Media", "Alfabetização para Web", "Games", "Marketing digital", "Conteúdo Digital", "Métricas para redes sociais", "como salvar gatinhos =P"],"location":"Campinas /SP","photo":null,"email":"melissacdevens@gmail.com","linkedin":null,"github":null,"twitter":null,"fb":null},
@@ -158,6 +159,5 @@
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null},
         {"name":"Yanne Moreira","interests":["Wordpress", "FrontEnd", "Design", "Interface Design", "UX Design"],"location":"Curitiba/PR","photo":null,"email":"yanne.b.moreira@gmail.com","linkedin":"yannemoreira","github":"riopse","twitter":null,"fb":null},
         {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null}
-        
       ]
 }
