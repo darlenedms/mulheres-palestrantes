@@ -30,6 +30,10 @@ var directive = {
             '.linkedin a@href': 'https://www.linkedin.com/in/#{mulher.linkedin}',
             '.linkedin @class': function(){
                 return this.linkedin ?  "" : "hidden";
+            },
+            '.behance a@href': 'https://www.behance.net/#{mulher.behance}',
+            '.behance @class': function(){
+                return this.behance ?  "" : "hidden";
             }
         }
     }
