@@ -34,6 +34,10 @@ var directive = {
             '.behance a@href': 'https://www.behance.net/#{mulher.behance}',
             '.behance @class': function(){
                 return this.behance ?  "" : "hidden";
+            },
+            '.site a@href': '#{mulher.site}',
+            '.site @class': function(){
+                return this.site ?  "" : "hidden";
             }
         }
     }
