@@ -84,6 +84,7 @@ header h1 {
     height: 370px;
     vertical-align: top;
     overflow: hidden;
+    position: relative;
 }
 
 .card h3 {
@@ -116,13 +117,20 @@ footer img {
     width: 20px;
 }
 
+.after-tags {
+    position: absolute;
+    bottom: 20px;
+    width: 235px;
+    background: #fff;
+    padding-top: 10px;
+}
+
 .social-media img {
     width: 29px;
     display: inline;
 }
 
 ul.social-media {
-    margin-bottom: 1.5rem;
     padding: 0.5rem 0 0;
     list-style-type: none;
 }
@@ -143,7 +151,7 @@ ul.social-media li.hidden {
 }
 
 ul.tags {
-    height: 120px;
+    max-height: 160px;
     list-style-type: none;
     padding: 0;
     margin: 0.5rem;
