@@ -300,5 +300,6 @@
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Yanne Moreira","interests":["Wordpress", "FrontEnd", "Design", "Interface Design", "UX Design"],"location":"Curitiba/PR","photo":null,"email":"yanne.b.moreira@gmail.com","linkedin":"yannemoreira","github":"riopse","twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null, "behance": null, "site": null}
+        {"name":"Juliene Alves","interests":["Empreendedorismo, "Mulheres na TI", "Programação", "Segurança da Informação", "Inovação"], "location":"Recife/PE","photo":null,"email":"juliene.alves@live.com", "linkedin":"juliene-alves-3b81b0132","github":null,"twitter":null,"fb":null, "behance": null, "site": null},     
     ]
 }
