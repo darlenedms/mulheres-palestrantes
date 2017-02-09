@@ -93,7 +93,23 @@
         {"name":"Elisa Carlos Pereira ","interests":["Financeiro e inovação"],"location":"Jundiaí/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Elis Forgerini", "interests":["Martketing Digital", "Saúde", "Redes Sociais"], "location": "São Paulo/SP", "photo":null,"email":null, "linkedin": "elisforgerini","github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Elizabeth Regina Tscha","interests":["Educação", "Tecnologia", "Empreendedorismo", "Gestão do conhecimento"],"location":"Recife/PE","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
-        {"name":"Emmanuelle Richard","interests":["Desenvolvimento Web e mobile"],"location":"Natal/RN","photo":null,"email":"emmanuellerichard@onbit.com.br\n","linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
+       
+       
+       {"name":"Emanuelle Menali",
+ "interests":["Desenvolvimento Android",
+              "Material Design",
+              "Engenharia de Software",
+              "Comunidades"],
+  "location":"Santa Luzia/MG",
+  "photo":null,
+  "email":"emanuelle.menalii@gmail.com",
+  "linkedin":"menaliemanuelle",
+  "github":"ManuJs",
+  "twitter":"M_Manu_Manu",
+  "fb":"emanuelle.menali"
+},
+       
+       {"name":"Emmanuelle Richard","interests":["Desenvolvimento Web e mobile"],"location":"Natal/RN","photo":null,"email":"emmanuellerichard@onbit.com.br\n","linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Erica Ariano", "interests":["Neuromarketing", "Neurobusiness", "Neurociência do Consumo", "Linguagem Corporal", "Detecção de Mentiras"], "location": "Santo André/SP", "photo":null,"email":null, "linkedin": "cacauariano","github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Érica Calil Nogueira","interests":["Games Inteligentes", "Inovação na Educação"],"location":"Rio de Janeiro/RJ","photo":null,"email":"erica.nogueira@nce.ufrj.br","linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Erica Marques","interests":["Marketing", "Inovação", "Palestras", "Empreendedorismo", "Mentoria e Oficinas com Metodologia CEFE Internacional"],"location":"Curitiba/PR","photo":null,"email":"erica@logosbr.com","linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
