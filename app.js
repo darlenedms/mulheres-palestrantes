@@ -57,16 +57,19 @@ function enableSearch() {
 
     $search.keyup(function(e) {
         filter = this.value;
-
-        $cards.find("h3:not(:Contains(" + filter + "))").parents('.card').hide();
-        $cards.find("p:not(:Contains(" + filter + "))").parents('.card').hide();
-        $cards.find("li:not(:Contains(" + filter + "))").parents('.card').hide();
-
-        $cards.find("h3:Contains(" + filter + ")").parents('.card').show();
-        $cards.find("p:Contains(" + filter + ")").parents('.card').show();
-        $cards.find("li:Contains(" + filter + ")").parents('.card').show();
+        filterCards($cards, filter);
     });
-}
+};
+
+var filterCards = debounce(function($cards, filter) {
+    $cards.find("h3:not(:Contains(" + filter + "))").parents('.card').hide();
+    $cards.find("p:not(:Contains(" + filter + "))").parents('.card').hide();
+    $cards.find("li:not(:Contains(" + filter + "))").parents('.card').hide();
+
+    $cards.find("h3:Contains(" + filter + ")").parents('.card').show();
+    $cards.find("p:Contains(" + filter + ")").parents('.card').show();
+    $cards.find("li:Contains(" + filter + ")").parents('.card').show();
+}, 200);
 
 // Cria um Contains para que ele seja case-insensitive e ignore acentuação
 jQuery.expr[':'].Contains = function(element, i, arrFilter) {
@@ -75,6 +78,21 @@ jQuery.expr[':'].Contains = function(element, i, arrFilter) {
         filter = removeAccents(arrFilter[3] || "");
 
     return (textContent || innerText).indexOf(filter) >= 0;
+};
+
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this, args = arguments;
+        var later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
 };
 
 function removeAccents(text) {
@@ -95,11 +113,26 @@ function removeAccents(text) {
         .replace(/[óòôõ]/g, 'o')
         .replace(/[úùû]/g, 'u')
         .toLowerCase();
-}
+};
 
 function generateGravatarUrl(email){
     var hash = md5(email);
     var placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg";
     var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
     return email ? imageURL : placeholderImagePath;
-}
+};
+
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this, args = arguments;
+        var later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
