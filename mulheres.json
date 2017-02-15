@@ -301,6 +301,7 @@
         {"name":"Vivian Vianna", "interests":["Marketing de Conteúdo", "Empreendedorismo", "Marketing Digital", "WordPress"], "location": "São Paulo/SP", "photo":null,"email":null, "linkedin": "vivianvianna","github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Viviane Vilella","interests":["E-commerce"],"location":"São Paulo/SP","photo":null,"email":null,"linkedin":null,"github":null,"twitter":null,"fb":null, "behance": null, "site": null},
         {"name":"Yanne Moreira","interests":["Wordpress", "FrontEnd", "Design", "Interface Design", "UX Design"],"location":"Curitiba/PR","photo":null,"email":"yanne.b.moreira@gmail.com","linkedin":"yannemoreira","github":"riopse","twitter":null,"fb":null, "behance": null, "site": null},
-        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null, "behance": null, "site": null}
+        {"name":"Yasodara Córdova","interests":["Web", "Semantic Web", "Data", "Open Data", "Datavis", "UX Design"],"location":"São Paulo/SP","photo":null,"email":"yasodara.cordova@gmail.com","linkedin":"yasodara","github":"yaso","twitter":"yaso","fb":null, "behance": null, "site": null},
+        {"name":"Claudia Carolina Boletti","interests":["Coaching", "Liderança", "Lean", "Agile Coach", "Agilidade", "Facilitação"],"location":"São Bernardo/SP","photo":"https://secure.gravatar.com/userimage/94903503/96289319fa2117a461d6cfbfbf3910cf?size=250","email":"claudia.boletti@.com","linkedin":"claudiacarolinaboletti","github":"claudiacarol","twitter":null,"fb":null, "behance": null, "site": null}
     ]
 }
