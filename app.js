@@ -59,6 +59,7 @@ function enableSearch() {
         filter = this.value;
         filterCards($cards, filter);
     });
+    $search.focus();
 };
 
 var filterCards = debounce(function($cards, filter) {
