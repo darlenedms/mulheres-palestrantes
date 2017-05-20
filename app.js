@@ -108,11 +108,11 @@ function removeAccents(text) {
         .replace(/&atilde;/g, 'a')
         .replace(/&otilde;/g, 'o')
         .replace(/ç/g, 'c')
-        .replace(/[áàã]/g, 'a')
-        .replace(/[éèê]/g, 'e')
-        .replace(/[íî]/g, 'i')
-        .replace(/[óòôõ]/g, 'o')
-        .replace(/[úùû]/g, 'u')
+        .replace(/[áàãÁ]/g, 'a')
+        .replace(/[éèêÉ]/g, 'e')
+        .replace(/[íîÍ]/g, 'i')
+        .replace(/[óòôõÓ]/g, 'o')
+        .replace(/[úùûÚ]/g, 'u')
         .toLowerCase();
 };
 
