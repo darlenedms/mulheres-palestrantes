@@ -2,6 +2,7 @@
 var directive = {
     'article':{
         'mulher<-mulheres':{
+            '@data-twitter': 'mulher.twitter',
             'h3': 'mulher.name',
 
             '.tags li':{
@@ -77,6 +78,8 @@ var filterCards = debounce(function($cards, filter) {
 
     $filteredOutCards.hide();
     $filteredCards.show();
+
+    updateTweetButton($filteredCards);
 }, 200);
 
 // Cria um Contains para que ele seja case-insensitive e ignore acentuação
@@ -87,6 +90,31 @@ jQuery.expr[':'].Contains = function(element, i, arrFilter) {
 
     return (textContent || innerText).indexOf(filter) >= 0;
 };
+
+function updateTweetButton($cards) {
+    // Find twitter usernames
+    var usernames = $cards.filter('[data-twitter]')
+        .map(function() {
+            return '@' + $(this).data('twitter');
+        })
+        .toArray();
+
+    // Remove previous button
+    var $ct = $('#speakers-mention-tweet').hide();
+    var $button = $ct.find('.twitter-button');
+
+    // Create new button if found twitter usernames
+    if (usernames.length >= 1) {
+        $ct.show();
+        $button.empty();
+
+        twttr.widgets.createShareButton('/', $button.get(0), {
+            text: usernames.join(' ') + ' Gostaria de convidá-las a palestrar no evento ...',
+            lang: 'pt_BR',
+            dnt: 'true'
+        });
+    }
+}
 
 function debounce(func, wait, immediate) {
     var timeout;
