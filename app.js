@@ -63,13 +63,20 @@ function enableSearch() {
 };
 
 var filterCards = debounce(function($cards, filter) {
-    $cards.find("h3:not(:Contains(" + filter + "))").parents('.card').hide();
-    $cards.find("p:not(:Contains(" + filter + "))").parents('.card').hide();
-    $cards.find("li:not(:Contains(" + filter + "))").parents('.card').hide();
+    var $filteredOutCards = $cards.find(
+        'h3:not(:Contains(' + filter + ')),' +
+        'p:not(:Contains(' + filter + ')),' +
+        'li:not(:Contains(' + filter + '))'
+    ).parents('.card');
 
-    $cards.find("h3:Contains(" + filter + ")").parents('.card').show();
-    $cards.find("p:Contains(" + filter + ")").parents('.card').show();
-    $cards.find("li:Contains(" + filter + ")").parents('.card').show();
+    var $filteredCards = $cards.find(
+        'h3:Contains(' + filter + '),' +
+        'p:Contains(' + filter + '),' +
+        'li:Contains(' + filter + ')'
+    ).parents('.card');
+
+    $filteredOutCards.hide();
+    $filteredCards.show();
 }, 200);
 
 // Cria um Contains para que ele seja case-insensitive e ignore acentuação
