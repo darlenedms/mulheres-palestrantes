@@ -2,6 +2,7 @@
 var directive = {
     'article':{
         'mulher<-mulheres':{
+            '@data-twitter': 'mulher.twitter',
             'h3': 'mulher.name',
 
             '.tags li':{
@@ -63,13 +64,22 @@ function enableSearch() {
 };
 
 var filterCards = debounce(function($cards, filter) {
-    $cards.find("h3:not(:Contains(" + filter + "))").parents('.card').hide();
-    $cards.find("p:not(:Contains(" + filter + "))").parents('.card').hide();
-    $cards.find("li:not(:Contains(" + filter + "))").parents('.card').hide();
+    var $filteredOutCards = $cards.find(
+        'h3:not(:Contains(' + filter + ')),' +
+        'p:not(:Contains(' + filter + ')),' +
+        'li:not(:Contains(' + filter + '))'
+    ).parents('.card');
 
-    $cards.find("h3:Contains(" + filter + ")").parents('.card').show();
-    $cards.find("p:Contains(" + filter + ")").parents('.card').show();
-    $cards.find("li:Contains(" + filter + ")").parents('.card').show();
+    var $filteredCards = $cards.find(
+        'h3:Contains(' + filter + '),' +
+        'p:Contains(' + filter + '),' +
+        'li:Contains(' + filter + ')'
+    ).parents('.card');
+
+    $filteredOutCards.hide();
+    $filteredCards.show();
+
+    updateTweetButton($filteredCards);
 }, 200);
 
 // Cria um Contains para que ele seja case-insensitive e ignore acentuação
@@ -80,6 +90,31 @@ jQuery.expr[':'].Contains = function(element, i, arrFilter) {
 
     return (textContent || innerText).indexOf(filter) >= 0;
 };
+
+function updateTweetButton($cards) {
+    // Find twitter usernames
+    var usernames = $cards.filter('[data-twitter]')
+        .map(function() {
+            return '@' + $(this).data('twitter');
+        })
+        .toArray();
+
+    // Remove previous button
+    var $ct = $('#speakers-mention-tweet').hide();
+    var $button = $ct.find('.twitter-button');
+
+    // Create new button if found twitter usernames
+    if (usernames.length >= 1) {
+        $ct.show();
+        $button.empty();
+
+        twttr.widgets.createShareButton('/', $button.get(0), {
+            text: usernames.join(' ') + ' Gostaria de convidá-las a palestrar no evento ...',
+            lang: 'pt_BR',
+            dnt: 'true'
+        });
+    }
+}
 
 function debounce(func, wait, immediate) {
     var timeout;
@@ -121,19 +156,4 @@ function generateGravatarUrl(email){
     var placeholderImagePath = "http://insideoutproject.xyz/mulheres-palestrantes/img/placeholder-female.jpg";
     var imageURL = "https://secure.gravatar.com/avatar/" + hash + "?r=PG&d=" + placeholderImagePath;
     return email ? imageURL : placeholderImagePath;
-};
-
-function debounce(func, wait, immediate) {
-    var timeout;
-    return function() {
-        var context = this, args = arguments;
-        var later = function() {
-            timeout = null;
-            if (!immediate) func.apply(context, args);
-        };
-        var callNow = immediate && !timeout;
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-        if (callNow) func.apply(context, args);
-    };
 };
