@@ -1,5 +1,8 @@
 //PURE.js template init
 var directive = {
+    '.counter' : function() {
+        return this.mulheres.length;
+    },
     'article':{
         'mulher<-mulheres':{
             '@data-twitter': 'mulher.twitter',
