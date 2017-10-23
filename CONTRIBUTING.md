@@ -41,31 +41,42 @@
 
     ## Dicas para prenchimento do arquivo `mulheres.json`:
 
-    - **Como adicionar uma foto?**<br>
+    - **Como adicionar uma foto?**  
       Para adicionar uma photo ao seu card, crie uma conta e faça upload do seu avatar no Gravatar - [acesse o site através desse link](https://en.gravatar.com/) - ou use a sua conta já existente.
 
-    - **Como preencher os campos de redes sociais?** <br>
+    - **Como preencher os campos de redes sociais?**  
       Em *linkedin*, *github*, *twitter* e *fb*: usar apenas o username da url da rede social.
-      > Exemplo: <br>
-        https://www.facebook.com/foo.bar >> "foo.bar" <br>
-        https://br.linkedin.com/in/foob >> "foob" <br>
+      > Exemplo:  
+        https://www.facebook.com/foo.bar >> "foo.bar"  
+        https://br.linkedin.com/in/foob >> "foob"  
       
-
-    - **Como preencher "interests"?** <br>
+    - **Como preencher o campo "interests"?**  
         Evite adiconar muitas tags nesse campo, dependendo da quantidade de caracteres cabem até 7 tags no card da página, mas o ideal seria usar *4* no *máximo*.
+        ````JSON
+          /* Exemplo */
+          {
+            "interests":
+              [
+                "UX Design",
+                "Web Design",
+                "Front-end",
+                "Rails"
+              ],
+          }
+        ````
 
-    - **Como preencher os campos que não tenho dados para adicionar?** <br>
+    - **Como preencher os campos que não tenho dados para adicionar?**  
       Caso exista algum campo onde você não tenha um valor real para ser preenchido, o mesmo pode ser adiconado o valor `null`, veja o exemplo abaixo de uma palestrante que não possui conta no facebook e twitter:
       ```json
       {
-        "twitter":"null",
-        "fb":"null"
+        "twitter": null,
+        "fb": null
       }
       ```
 
 5. Commit suas alterações - Execute no terminal: 
     ```sh
-    git commit -m 'Add Foo Bar'
+    git commit -a -m 'Add Foo Bar'
     ```
 
 6. Suba suas alterações para o repositório remoto:
