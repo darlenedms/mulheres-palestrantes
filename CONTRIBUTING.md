@@ -76,7 +76,7 @@
 
 5. Commit suas alterações - Execute no terminal: 
     ```sh
-    git commit -a -m 'Add Foo Bar'
+    git commit -am 'Add Foo Bar'
     ```
 
 6. Suba suas alterações para o repositório remoto:
