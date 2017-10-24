@@ -51,7 +51,7 @@
         https://br.linkedin.com/in/foob >> "foob"  
       
     - **Como preencher o campo "interests"?**  
-        Evite adiconar muitas tags nesse campo, dependendo da quantidade de caracteres cabem até 7 tags no card da página, mas o ideal seria usar *4* no *máximo*.
+        Evite adicionar muitas tags nesse campo, dependendo da quantidade de caracteres cabem até 7 tags no card da página, mas o ideal seria usar *4* no *máximo*.
         ````JSON
           /* Exemplo */
           {
@@ -66,7 +66,7 @@
         ````
 
     - **Como preencher os campos que não tenho dados para adicionar?**  
-      Caso exista algum campo onde você não tenha um valor real para ser preenchido, o mesmo pode ser adiconado o valor `null`, veja o exemplo abaixo de uma palestrante que não possui conta no facebook e twitter:
+      Caso exista algum campo onde você não tenha um valor real para ser preenchido, o mesmo pode ser adicionado o valor `null`, veja o exemplo abaixo de uma palestrante que não possui conta no facebook e twitter:
       ```json
       {
         "twitter": null,
